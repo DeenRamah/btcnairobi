@@ -29,6 +29,8 @@ import {
   roadmap2,
   roadmap3,
   roadmap4,
+  roadmap5,
+  roadmap6,
   searchMd,
   slack,
   sliders04,
@@ -92,58 +94,87 @@ export const brainwaveServicesIcons = [
   sliders04,
 ];
 
+
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
+    title: "Noones Integration",
+    text: "Integrate with Noones to offer a peer-to-peer Bitcoin marketplace, enhancing user buying and selling options.",
+    date: new Date().toLocaleDateString(),
     status: "done",
     imageUrl: roadmap1,
     colorful: true,
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
+    title: "Paxful Integration",
+    text: "Enable users to buy and sell Bitcoin through Paxful, providing diverse payment methods and global reach.",
+    date: new Date().toLocaleDateString(),
     status: "progress",
     imageUrl: roadmap2,
   },
   {
     id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
+    title: "Binance API Access",
+    text: "Allow users to trade Bitcoin on Binance, accessing advanced trading features and liquidity.",
+    date: new Date().toLocaleDateString(),
     status: "done",
     imageUrl: roadmap3,
   },
   {
     id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
+    title: "AstroPay Support",
+    text: "Integrate AstroPay for easy Bitcoin purchases using local currencies, improving accessibility.",
+    date: new Date().toLocaleDateString(),
     status: "progress",
     imageUrl: roadmap4,
   },
+  {
+    id: "4",
+    title: "Bitcoin.com Integration",
+    text: "Provide direct access to Bitcoin.com resources and services, enhancing user knowledge and transaction capabilities.",
+    date: new Date().toLocaleDateString(),
+    status: "planned",
+    imageUrl: roadmap5,
+  },
+  {
+    id: "5",
+    title: "LunoPay Integration",
+    text: "Integrate with LunoPay to allow seamless Bitcoin payments and transfers, expanding user payment options.",
+    date: new Date().toLocaleDateString(),
+    status: "planned",
+    imageUrl: roadmap6,
+  },
 ];
+
 
 export const collabText =
   "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+
+export const collo =
+"Bitcoin Nairobi integrates education and application, empowering confident cryptocurrency navigation.";
+export const collora =
+"Bitcoin Nairobi simplifies learning with smart automation, making Bitcoin accessible and user-friendly";
+
+export const collops =
+"Bitcoin Nairobi ensures safe transactions and secure wallet management for peace of mind";
+
 
 export const collabContent = [
   {
     id: "0",
     title: "Seamless Integration",
-    text: collabText,
+    text: collo,
   },
   {
     id: "1",
     title: "Smart Automation",
+    text: collora,
   },
   {
     id: "2",
     title: "Top-notch Security",
+    text: collops,
   },
 ];
 
@@ -204,6 +235,7 @@ export const collabApps = [
     width: 38,
     height: 32,
   },
+
 ];
 
 export const pricing = [
