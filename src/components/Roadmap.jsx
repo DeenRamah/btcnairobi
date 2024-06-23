@@ -69,7 +69,7 @@ const Roadmap = () => (
       </div>
 
       <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
-        <Button href="/roadmap">Our roadmap</Button>
+        <Button href="https://web3-five-wine.vercel.app">Our roadmap</Button>
       </div>
     </div>
   </Section>

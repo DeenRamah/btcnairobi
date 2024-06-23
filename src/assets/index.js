@@ -1,6 +1,6 @@
-import brainwave from "./brainwave.svg";
+import brainwave from "./1.png";
 import check from "./check.svg";
-import brainwaveSymbol from "./brainwave-symbol.svg";
+import brainwaveSymbol from "./2.png";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
 import play from "./play.svg";
 import gradient from "./gradient.png";
@@ -8,7 +8,11 @@ import smallSphere from "./4-small.png";
 import grid from "./grid.png";
 import check2 from "./check-02.svg";
 import loading1 from "./loading-01.svg";
-import yourlogo from "./yourlogo.svg";
+import yourlogo from "./popo.gif";
+import mylogo from "./res.gif";
+import hislogo from "./lil.gif";
+import dlogo from "./download.gif";
+import felogo from "./wewe.gif";
 import homeSmile from "./home-smile.svg";
 import file02 from "./file-02.svg";
 import searchMd from "./search-md.svg";
@@ -22,7 +26,7 @@ import loading from "./loading.png";
 import background from "./background.jpg";
 
 import curve from "./hero/curve.png";
-import robot from "./hero/robot.jpg";
+import robot from "./hero/popi.gif";
 import heroBackground from "./hero/hero-background.jpg";
 
 import curve1 from "./collaboration/curve-1.svg";
@@ -36,9 +40,9 @@ import protopie from "./collaboration/protopie.png";
 import raindrop from "./collaboration/raindrop.png";
 import slack from "./collaboration/slack.png";
 
-import service1 from "./services/service-1.png";
-import service2 from "./services/service-2.png";
-import service3 from "./services/service-3.png";
+import service1 from "./services/oop.gif";
+import service2 from "./services/pop.gif";
+import service3 from "./services/wew.gif";
 
 import lines from "./pricing/lines.svg";
 import stars from "./pricing/stars.svg";
@@ -46,16 +50,18 @@ import stars from "./pricing/stars.svg";
 import coins from "./roadmap/coins.png";
 import done from "./roadmap/done.svg";
 import hero from "./roadmap/hero.png";
-import roadmap1 from "./roadmap/image-1.png";
+import roadmap1 from "./roadmap/p.gif";
 import roadmap2 from "./roadmap/image-2.png";
 import roadmap3 from "./roadmap/image-3.png";
-import roadmap4 from "./roadmap/image-4.png";
+import roadmap4 from "./roadmap/lulu.gif";
+import roadmap5 from "./roadmap/we.gif";
+import roadmap6 from "./roadmap/wsa.gif";
 import undone from "./roadmap/undone.svg";
 
-import notification1 from "./notification/image-1.png";
-import notification2 from "./notification/image-2.png";
-import notification3 from "./notification/image-3.png";
-import notification4 from "./notification/image-4.png";
+import notification1 from "./notification/yu.gif";
+import notification2 from "./notification/yuu.gif";
+import notification3 from "./notification/yy.gif";
+import notification4 from "./notification/yuui.gif";
 
 import benefitCard1 from "./benefits/card-1.svg";
 import benefitCard2 from "./benefits/card-2.svg";
@@ -67,7 +73,7 @@ import benefitIcon1 from "./benefits/icon-1.svg";
 import benefitIcon2 from "./benefits/icon-2.svg";
 import benefitIcon3 from "./benefits/icon-3.svg";
 import benefitIcon4 from "./benefits/icon-4.svg";
-import benefitImage2 from "./benefits/image-2.png";
+import benefitImage2 from "./benefits/ty.gif";
 
 import discordBlack from "./socials/discord.svg";
 import facebook from "./socials/facebook.svg";
@@ -75,6 +81,7 @@ import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 import linkedin from "./socials/link.svg";
+import mkuu from "./ww.png";
 
 export {
   brainwave,
@@ -124,6 +131,8 @@ export {
   roadmap2,
   roadmap3,
   roadmap4,
+  roadmap5,
+  roadmap6,
   undone,
   notification1,
   notification2,
@@ -146,4 +155,9 @@ export {
   telegram,
   twitter,
   linkedin,
+  dlogo,
+  felogo,
+  mylogo,
+  hislogo,
+  mkuu,
 };

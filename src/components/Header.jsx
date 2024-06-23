@@ -1,16 +1,34 @@
 import { useLocation } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
-
-import { brainwave } from "../assets";
+import {brainwave } from "../assets";
 import { navigation } from "../constants";
 import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
 import { HamburgerMenu } from "./design/Header";
+import logo from '../assets/hero/contrast.png';
 import { useState } from "react";
+
+
+
+
+
+
+
+
 
 const Header = () => {
   const pathname = useLocation();
   const [openNavigation, setOpenNavigation] = useState(false);
+  const [isColorChanged, setIsColorChanged] = useState(false);
+
+  const changeBackgroundColor = () => {
+    if (isColorChanged) {
+      document.body.style.backgroundColor = '';
+    } else {
+      document.body.style.backgroundColor = '#f7931a';
+    }
+    setIsColorChanged(!isColorChanged);
+  };
 
   const toggleNavigation = () => {
     if (openNavigation) {
@@ -36,8 +54,15 @@ const Header = () => {
       }`}
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
-        <a className="block w-[12rem] xl:mr-8" href="#hero">
-          <img src={brainwave} width={190} height={40} alt="Brainwave" />
+        <a className="block w-[12rem] xl:mr-8 " href="https://web3-five-wine.vercel.app">
+          <img
+          src={brainwave}
+          width={100}
+          height={25}
+          alt="Brainwave"
+          className="rounded-full"
+          
+          />
         </a>
 
         <nav
@@ -66,17 +91,35 @@ const Header = () => {
 
           <HamburgerMenu />
         </nav>
-
+  
         <a
-          href="#signup"
-          className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
-        >
-          New account
-        </a>
-        <Button className="hidden lg:flex" href="#login">
-          Sign in
-        </Button>
+        href="https://web3-five-wine.vercel.app"
+        className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
+      >
+        <button>
+        join Us
+        </button>
+      </a>
+      <Button className=" hidden lg:flex left:-20" href="https://geyser.fund/project/btcnairobi?mtm_campaign=project-share&mtm_keyword=btcnairobi&mtm_source=user&mtm_medium=geyser&mtm_content=contribution-summary">
+        Support Us
+      </Button>
 
+
+      <a
+        className=" mb-4"
+        >
+        <img src={logo}
+        width={60}
+        height={60}
+        alt="Logo"
+        className="fixed top-1 right-4 md:top-4 md:right-2 lg:top-4 lg:right-4 px-4 py-2 font-bold text-white rounded-full sm:-mt-5 md:-mt-5"
+        onClick={changeBackgroundColor}
+        />
+
+        </a>
+
+
+        
         <Button
           className="ml-auto lg:hidden"
           px="px-3"

@@ -9,6 +9,8 @@ import Generating from "./Generating";
 import Notification from "./Notification";
 import CompanyLogos from "./CompanyLogos";
 
+
+
 const Hero = () => {
   const parallaxRef = useRef(null);
 
@@ -38,7 +40,7 @@ const Hero = () => {
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
           Join us in revolutionizing the financial landscape of Kenya through Bitcoin education and adoption
           </p>
-          <Button href="/pricing" white>
+          <Button href="https://web3-five-wine.vercel.app" white>
             Get started
           </Button>
         </div>

@@ -29,7 +29,7 @@ const Pricing = () => {
 
         <Heading
           tag="Get started with BtcNairobi"
-          title="Pay once, use forever"
+          title="Pay once,just kidding,purely free use forever"
         />
 
         <div className="relative">
@@ -41,7 +41,7 @@ const Pricing = () => {
         <div className="flex justify-center mt-10">
           <a
             className="text-xs font-code font-bold tracking-wider uppercase border-b"
-            href="/pricing"
+            href="https://web3-five-wine.vercel.app"
           >
             See the full details
           </a>

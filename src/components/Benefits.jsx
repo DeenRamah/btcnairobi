@@ -33,9 +33,11 @@ const Benefits = () => {
                     height={48}
                     alt={item.title}
                   />
-                  <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
-                    Explore more
-                  </p>
+                  <a href="https://web3-five-wine.vercel.app"
+                   className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
+                    
+                    Explore more</a>
+                  
                   <Arrow />
                 </div>
               </div>
@@ -44,7 +46,7 @@ const Benefits = () => {
 
               <div
                 className="absolute inset-0.5 bg-n-8"
-                style={{ clipPath: "url(#benefits)" }}
+                style={{ clipPath: "url(https://web3-five-wine.vercel.app)" }}
               >
                 <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-10">
                   {item.imageUrl && (
