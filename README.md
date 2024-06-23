@@ -1,8 +1,12 @@
 Bitcoin Nairobi project This is a shortcut 
+<<<<<<< HEAD
 
 img="![alt text](image.png)";
 
+=======
+>>>>>>> b2e3e48c9a41d7cbb89725c059fedc618391d26b
 
+img="![alt text](image.png)";
 - Vite
 - React.js
 - Tailwind CSS
