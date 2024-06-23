@@ -47,12 +47,12 @@ export const navigation = [
   {
     id: "0",
     title: "Home",
-    url: "#features",
+    url: "https://web3-five-wine.vercel.app",
   },
   {
     id: "1",
     title: "Programs",
-    url: "#pricing",
+    url: "https://web3-five-wine.vercel.app",
   },
   {
     id: "2",

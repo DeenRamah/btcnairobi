@@ -112,7 +112,7 @@ const Header = () => {
         width={60}
         height={60}
         alt="Logo"
-        className="fixed top-1 right-4 md:top-4 md:right-2 lg:top-4 lg:right-4 px-4 py-2 font-bold text-white rounded-full sm:-mt-5 md:-mt-5"
+        className="fixed top-1 right-4 md:top-3 md:right-2 lg:top-4 lg:right-4 px-4 py-2 font-bold text-white rounded-full sm:-mt-2 md:-mt-5"
         onClick={changeBackgroundColor}
         />
 
