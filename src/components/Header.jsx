@@ -54,7 +54,7 @@ const Header = () => {
       }`}
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
-        <a className="block w-[12rem] xl:mr-8 " href="https://web3-five-wine.vercel.app">
+        <a className="block w-[12rem] xl:mr-8 " href="#hero">
           <img
           src={brainwave}
           width={100}
