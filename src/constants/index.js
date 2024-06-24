@@ -47,22 +47,22 @@ export const navigation = [
   {
     id: "0",
     title: "Home",
-    url: "https://web3-five-wine.vercel.app",
+    url: "#features",
   },
   {
     id: "1",
     title: "Programs",
-    url: "https://web3-five-wine.vercel.app",
+    url: "#pricing",
   },
   {
     id: "2",
     title: "About Us",
-    url: "https://web3-five-wine.vercel.app",
+    url: "#how-to-use",
   },
   {
     id: "3",
     title: "Roadmap",
-    url: "https://web3-five-wine.vercel.app",
+    url: "#roadmap",
   },
   {
     id: "4",
